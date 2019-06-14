@@ -107,17 +107,17 @@ public class MainActivity extends AppCompatActivity {
         String title = null;
         switch (selectedMode) {
             case R.id.action_list:
-                title = "Mode List";
+                title = "Mode List Presiden";
                 showRecyclerList();
                 break;
 
             case R.id.action_grid:
-                title = "Mode Grid";
+                title = "Mode Grid Presiden";
                 showRecyclerGrid();
                 break;
 
             case R.id.action_cardview:
-                title = "Mode CardView";
+                title = "Mode CardView Presiden";
                 showRecyclerCardView();
                 break;
         }
